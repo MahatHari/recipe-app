@@ -1,0 +1,337 @@
+{
+  "recipes": [
+    {
+      "id": 1,
+      "recipeName": "Spaghetti Bolognese",
+      "author": "Paria Sanchez",
+      "prepTime": "15 minutes",
+      "cookTime": "1 hour",
+      "ingredients": [
+        "1 lb ground beef",
+        "1 onion, chopped",
+        "2 cloves garlic, minced",
+        "1 carrot, grated",
+        "1 stalk celery, chopped",
+        "1 can (14 oz) crushed tomatoes",
+        "1 can (6 oz) tomato paste",
+        "1 teaspoon dried oregano",
+        "1 teaspoon dried basil",
+        "Salt and pepper to taste",
+        "1/4 cup grated Parmesan cheese",
+        "12 oz spaghetti"
+      ],
+      "instructions": [
+        "In a large pot, cook ground beef over medium heat until browned. Drain excess fat.",
+        "Add onion, garlic, carrot, and celery. Cook until vegetables are tender.",
+        "Stir in crushed tomatoes, tomato paste, oregano, basil, salt, and pepper. Simmer for 30 minutes.",
+        "Meanwhile, cook spaghetti according to package instructions. Drain.",
+        "Serve Bolognese sauce over cooked spaghetti and sprinkle with Parmesan cheese."
+      ],
+      "servings": 6,
+      "tags": [
+        "dinner",
+        "pasta",
+        "Italian"
+      ],
+      "notes": "You can add a splash of red wine to the sauce for extra flavor.",
+      "category": "non-vegetarian"
+    },
+    {
+      "id": 2,
+      "recipeName": "Caesar Salad",
+      "author": "Emily Johnson",
+      "prepTime": "15 minutes",
+      "cookTime": "0 minutes",
+      "ingredients": [
+        "1 head romaine lettuce, chopped",
+        "1 cup croutons",
+        "1/2 cup grated Parmesan cheese",
+        "1/4 cup Caesar dressing",
+        "1 lemon, juiced",
+        "1 clove garlic, minced",
+        "Salt and pepper to taste"
+      ],
+      "instructions": [
+        "In a large bowl, combine romaine lettuce, croutons, and Parmesan cheese.",
+        "In a small bowl, whisk together Caesar dressing, lemon juice, garlic, salt, and pepper.",
+        "Pour the dressing over the lettuce mixture and toss to coat evenly.",
+        "Serve immediately as a side dish or add grilled chicken for a complete meal."
+      ],
+      "servings": 4,
+      "tags": [
+        "salad",
+        "side dish"
+      ],
+      "notes": "For a twist, you can add grilled shrimp or anchovies to the salad.",
+      "category": "vegetarian"
+    },
+    {
+      "id": 3,
+      "recipeName": "Chicken Stir-Fry",
+      "author": "David Lee",
+      "prepTime": "20 minutes",
+      "cookTime": "15 minutes",
+      "ingredients": [
+        "1 lb boneless, skinless chicken breasts, sliced",
+        "2 tablespoons vegetable oil",
+        "1 bell pepper, sliced",
+        "1 small onion, sliced",
+        "1 cup broccoli florets",
+        "1 cup snap peas",
+        "2 cloves garlic, minced",
+        "1/4 cup soy sauce",
+        "2 tablespoons oyster sauce",
+        "1 tablespoon cornstarch",
+        "1 teaspoon sesame oil",
+        "Salt and pepper to taste",
+        "Cooked rice for serving"
+      ],
+      "instructions": [
+        "In a large skillet, heat vegetable oil over medium-high heat. Add chicken and cook until browned. Remove from the skillet and set aside.",
+        "In the same skillet, add bell pepper, onion, broccoli, snap peas, and garlic. Stir-fry for a few minutes until vegetables are crisp-tender.",
+        "In a small bowl, whisk together soy sauce, oyster sauce, cornstarch, sesame oil, salt, and pepper. Pour the sauce into the skillet with the vegetables.",
+        "Return the cooked chicken to the skillet and stir-fry for an additional minute to coat everything in the sauce.",
+        "Serve the chicken stir-fry over cooked rice."
+      ],
+      "servings": 4,
+      "tags": [
+        "dinner",
+        "Asian"
+      ],
+      "notes": "Feel free to add other vegetables like mushrooms or baby corn to the stir-fry.",
+      "category": "non-vegetarian"
+    },
+    {
+      "id": 4,
+      "recipeName": "Caprese Salad",
+      "author": "Sophia Martinez",
+      "prepTime": "10 minutes",
+      "cookTime": "0 minutes",
+      "ingredients": [
+        "2 large tomatoes, sliced",
+        "8 oz fresh mozzarella cheese, sliced",
+        "1/2 cup fresh basil leaves",
+        "2 tablespoons balsamic glaze",
+        "2 tablespoons extra virgin olive oil",
+        "Salt and pepper to taste"
+      ],
+      "instructions": [
+        "Arrange tomato and mozzarella slices on a serving platter, alternating them.",
+        "Tuck fresh basil leaves between the tomato and mozzarella slices.",
+        "Drizzle balsamic glaze and olive oil over the salad.",
+        "Season with salt and pepper to taste.",
+        "Serve immediately as a refreshing appetizer or side dish."
+      ],
+      "servings": 4,
+      "tags": [
+        "salad",
+        "appetizer",
+        "Italian"
+      ],
+      "notes": "You can sprinkle some freshly ground black pepper over the salad for extra flavor.",
+      "category": "vegetarian"
+    },
+    {
+      "id": 5,
+      "recipeName": "Chicken Noodle Soup",
+      "author": "Michael Wilson",
+      "prepTime": "15 minutes",
+      "cookTime": "40 minutes",
+      "ingredients": [
+        "1 lb boneless, skinless chicken breasts",
+        "8 cups chicken broth",
+        "2 carrots, sliced",
+        "2 celery stalks, sliced",
+        "1 onion, diced",
+        "2 cloves garlic, minced",
+        "2 cups egg noodles",
+        "1 bay leaf",
+        "1 teaspoon dried thyme",
+        "Salt and pepper to taste",
+        "Fresh parsley for garnish"
+      ],
+      "instructions": [
+        "In a large pot, bring chicken broth to a boil. Add chicken breasts, carrots, celery, onion, garlic, bay leaf, thyme, salt, and pepper.",
+        "Reduce heat and simmer for 25-30 minutes until chicken is cooked through and vegetables are tender.",
+        "Remove the chicken from the pot and shred it using two forks. Return the shredded chicken to the pot.",
+        "Add egg noodles to the pot and cook according to package instructions until tender.",
+        "Discard the bay leaf. Adjust the seasoning if needed.",
+        "Serve the chicken noodle soup hot, garnished with fresh parsley."
+      ],
+      "servings": 6,
+      "tags": [
+        "soup",
+        "comfort food"
+      ],
+      "notes": "You can add a squeeze of fresh lemon juice to the soup before serving for a burst of freshness.",
+      "category": "non-vegetarian"
+    },
+    {
+      "id": 6,
+      "recipeName": "Margherita Pizza",
+      "author": "Carlos Gonzalez",
+      "prepTime": "20 minutes",
+      "cookTime": "15 minutes",
+      "ingredients": [
+        "1 pizza dough (store-bought or homemade)",
+        "1/2 cup pizza sauce",
+        "8 oz fresh mozzarella cheese, sliced",
+        "2 large tomatoes, sliced",
+        "1/4 cup fresh basil leaves",
+        "2 tablespoons extra virgin olive oil",
+        "Salt and pepper to taste"
+      ],
+      "instructions": [
+        "Preheat the oven to the highest temperature your oven allows.",
+        "Roll out the pizza dough on a floured surface into your desired shape.",
+        "Transfer the dough to a pizza stone or baking sheet.",
+        "Spread pizza sauce evenly over the dough, leaving a small border around the edges.",
+        "Arrange mozzarella cheese slices and tomato slices on top of the sauce.",
+        "Season with salt and pepper to taste.",
+        "Bake in the preheated oven for 12-15 minutes until the crust is golden and the cheese is bubbly.",
+        "Remove from the oven and sprinkle fresh basil leaves over the pizza.",
+        "Drizzle olive oil over the pizza before serving.",
+        "Slice and serve the Margherita pizza hot."
+      ],
+      "servings": 4,
+      "tags": [
+        "pizza",
+        "Italian"
+      ],
+      "notes": "You can add a sprinkle of red pepper flakes for a hint of spiciness.",
+      "category": "non-vegetarian"
+    },
+    {
+      "id": 7,
+      "recipeName": "Guacamole",
+      "author": "Isabella Rodriguez",
+      "prepTime": "10 minutes",
+      "cookTime": "0 minutes",
+      "ingredients": [
+        "2 ripe avocados",
+        "1/4 cup diced red onion",
+        "1/4 cup chopped fresh cilantro",
+        "1 jalapeño pepper, seeded and minced",
+        "2 tablespoons lime juice",
+        "1 clove garlic, minced",
+        "Salt and pepper to taste",
+        "Tortilla chips for serving"
+      ],
+      "instructions": [
+        "Cut avocados in half and remove the pits. Scoop out the flesh into a bowl.",
+        "Add diced red onion, cilantro, jalapeño pepper, lime juice, and minced garlic to the bowl with the avocado.",
+        "Mash everything together with a fork until desired consistency is reached.",
+        "Season with salt and pepper to taste.",
+        "Serve the guacamole with tortilla chips as a dip or as a topping for tacos, burritos, or salads."
+      ],
+      "servings": 4,
+      "tags": [
+        "appetizer",
+        "Mexican",
+        "dip"
+      ],
+      "notes": "For added freshness, you can add diced tomatoes to the guacamole.",
+      "category": "vegetarian"
+    },
+    {
+      "id": 8,
+      "recipeName": "Pancakes",
+      "author": "Olivia Thompson",
+      "prepTime": "10 minutes",
+      "cookTime": "15 minutes",
+      "ingredients": [
+        "1 cup all-purpose flour",
+        "2 tablespoons granulated sugar",
+        "1 teaspoon baking powder",
+        "1/2 teaspoon baking soda",
+        "1/4 teaspoon salt",
+        "3/4 cup buttermilk",
+        "1/4 cup milk",
+        "1 large egg",
+        "2 tablespoons unsalted butter, melted",
+        "1 teaspoon vanilla extract",
+        "Butter or oil for greasing the pan",
+        "Maple syrup and fresh fruits for serving"
+      ],
+      "instructions": [
+        "In a mixing bowl, whisk together flour, sugar, baking powder, baking soda, and salt.",
+        "In a separate bowl, whisk together buttermilk, milk, egg, melted butter, and vanilla extract.",
+        "Pour the wet ingredients into the dry ingredients and stir until just combined. Do not overmix; some lumps are okay.",
+        "Heat a non-stick skillet or griddle over medium heat. Grease the surface with butter or oil.",
+        "Pour 1/4 cup of batter onto the skillet for each pancake. Cook until bubbles form on the surface, then flip and cook until golden brown.",
+        "Repeat with the remaining batter, adding more butter or oil as needed.",
+        "Serve the pancakes hot with maple syrup and fresh fruits of your choice."
+      ],
+      "servings": 4,
+      "tags": [
+        "breakfast",
+        "brunch"
+      ],
+      "notes": "You can add chocolate chips, blueberries, or sliced bananas to the pancake batter for variations.",
+      "category": "vegetarian"
+    },
+    {
+      "id": 9,
+      "recipeName": "Caesar Chicken Wrap",
+      "author": "Daniel Adams",
+      "prepTime": "15 minutes",
+      "cookTime": "15 minutes",
+      "ingredients": [
+        "2 boneless, skinless chicken breasts",
+        "2 tablespoons olive oil",
+        "1/2 teaspoon garlic powder",
+        "Salt and pepper to taste",
+        "4 large tortillas",
+        "1 cup romaine lettuce, chopped",
+        "1/4 cup grated Parmesan cheese",
+        "1/4 cup Caesar dressing"
+      ],
+      "instructions": [
+        "Preheat the oven to 400 degrees F (200 degrees C).",
+        "Rub chicken breasts with olive oil and sprinkle with garlic powder, salt, and pepper.",
+        "Bake the chicken in the preheated oven for 15-20 minutes or until cooked through. Let it cool, then slice into thin strips.",
+        "Place a tortilla on a flat surface. Layer with romaine lettuce, sliced chicken, Parmesan cheese, and Caesar dressing.",
+        "Fold in the sides of the tortilla and roll it up tightly.",
+        "Repeat with the remaining tortillas and ingredients.",
+        "Slice each wrap in half and serve as a delicious lunch or light dinner."
+      ],
+      "servings": 2,
+      "tags": [
+        "lunch",
+        "wrap"
+      ],
+      "notes": "You can add cherry tomatoes, bacon bits, or avocado slices to the wrap for extra flavor and texture.",
+      "category": "non-vegetarian"
+    },
+    {
+      "id": 10,
+      "recipeName": "Berry Smoothie",
+      "author": "Sophie Wilson",
+      "prepTime": "5 minutes",
+      "cookTime": "0 minutes",
+      "ingredients": [
+        "1 cup mixed berries (strawberries, blueberries, raspberries)",
+        "1 ripe banana",
+        "1 cup milk (dairy or plant-based)",
+        "1/2 cup plain yogurt",
+        "1 tablespoon honey (optional)",
+        "Ice cubes"
+      ],
+      "instructions": [
+        "Place mixed berries, banana, milk, yogurt, and honey (if using) into a blender.",
+        "Blend on high speed until smooth and creamy.",
+        "Add ice cubes and blend again until desired consistency is reached.",
+        "Pour the berry smoothie into glasses and serve immediately.",
+        "Enjoy this refreshing and nutritious smoothie as a breakfast or snack."
+      ],
+      "servings": 2,
+      "tags": [
+        "smoothie",
+        "breakfast",
+        "snack"
+      ],
+      "notes": "You can customize the smoothie by adding a handful of spinach or kale for added nutrients.",
+      "category": "vegetarian"
+    }
+  ]
+}
