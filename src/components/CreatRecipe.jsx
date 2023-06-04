@@ -39,13 +39,15 @@ const CreateRecipe = () => {
     }
     return empty;
   };
-  const onCancel = () => {};
+  const onCancel = () => {
+    navigate("/")
+  };
 
   const handleSubmit = (e) => {
     e.preventDefault();
-   let instructions = newRecipe.instructions.split(", ");
-   let ingredients = newRecipe.ingredients.split(", ");
-   let tags = newRecipe.tags.split(" ");
+   let instructions = newRecipe.instructions.split("; ");
+   let ingredients = newRecipe.ingredients.split("; ");
+   let tags = newRecipe.tags.split(";");
 
     setRecipe((prev) => {
       const obj = { ...newRecipe };
@@ -127,6 +129,7 @@ const CreateRecipe = () => {
             <div>
               <label htmlFor="tags">Tags</label>
               <input
+                 placeholder="sperate each tag by ; "
                 type="text"
                 id="tags"
                 name="tags"
@@ -158,10 +161,11 @@ const CreateRecipe = () => {
             </div>
           </div>
         </div>
-        <div className="group">
-          <div>
+        <div className="group c-ingredients">
+          <div className="create-ingredients">
             <label htmlFor="ingredients">Ingredients</label>
             <textarea
+            placeholder=" sperate each ingredient by ; "
               type="text"
               id="ingredients"
               name="ingredients"
@@ -169,9 +173,10 @@ const CreateRecipe = () => {
               onChange={handleInputChange}
             />
           </div>
-          <div>
+          <div className="create-instructions">
             <label htmlFor="instructions">Instructions</label>
             <textarea
+              placeholder=" sperate each instruction by ; "
               type="text"
               id="instructions"
               name="instructions"
@@ -181,7 +186,7 @@ const CreateRecipe = () => {
           </div>
         </div>
         <button type="submit">
-          "Add Recipe"
+          Add Recipe
         </button>
        
           <button type="button" onClick={onCancel}>

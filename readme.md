@@ -14,7 +14,7 @@ Recipe app is a web application showcasing list of recipes where you can create,
 ## Installation 
 To install and run the project locally, follow follwoing steps
 1. Clone the repository 
-```git clone https://github.com/hmahat/recipe-app.git```
+```git clone https://github.com/MahatHari/recipe-app.git```
 2. Navigate  the project directory
 
 3. Install project dependencies

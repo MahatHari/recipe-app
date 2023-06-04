@@ -1,0 +1,106 @@
+.update-form{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+input{
+    background-color: #fff;
+    border: none;
+}
+.update-form form{
+   
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+.group{
+   width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin-bottom: 10px;
+    border-bottom: 1px solid rgba(0,0,0,0.2);
+}
+.group-sub{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+   
+    width: 100%;
+}
+
+.group-sub div{
+ 
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    width:50%;
+}
+.group-sub div label{
+    width: 180px;
+}
+.group-sub div input{
+    max-width: 200px;
+}
+.group-sub div textarea{
+    height: 80px;
+    width: 400px;
+    resize: none;
+
+}
+.ingredients, .instructions{
+    display:flex;
+    width: 100%;
+    flex-direction: column;
+    flex-wrap:wrap;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 1px solid rgba(0,0,0,0.2);
+    margin-bottom:10px ;
+    box-shadow: 0px,4px,8px,rgba(0,0,0,0.2);
+}
+.destructured-inputs{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.destructured-inputs input {
+    flex: 1 0 30%;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    
+}
+.destructured-instructions{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100%;
+}
+.instruction-input{
+    width: 100%;
+    margin-bottom: 10px;
+
+}
+.instruction-input input{
+    width: 90%;
+}
+button{
+    width: 200px;
+    height: 40px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+}
+label{
+    font-weight: 700;
+    margin-bottom: 5px;
+}

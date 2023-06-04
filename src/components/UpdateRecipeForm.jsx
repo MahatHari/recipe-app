@@ -3,7 +3,7 @@ import { useSelector, useDispatch } from "react-redux";
 import { useNavigate, useParams } from "react-router-dom";
 import { updateRecipe } from "../features/receipeSlice";
 
-import "../style/CreateRecipe.css";
+import "../style/UpdateRecipeForm.css";
 
 const UpdateRecipeForm = () => {
   const recipesData = useSelector((state) => state.recipes.recipesData);
@@ -63,7 +63,9 @@ const UpdateRecipeForm = () => {
     }
     return empty;
   };
-  const onCancel = () => {};
+  const onCancel = () => {
+    navigate("/")
+  };
 
   const handleSubmit = (e) => {
    e.preventDefault()
@@ -72,7 +74,7 @@ const UpdateRecipeForm = () => {
   }
     
   return (
-    <div>
+    <div className="update-form">
       <h2>Update Recipe</h2>
       <form onSubmit={handleSubmit}>
         <div className="group">
@@ -172,35 +174,39 @@ const UpdateRecipeForm = () => {
           </div>
         </div>
         <div className="group">
-          <div>
+          <div className="ingredients">
             <label htmlFor="ingredients">Ingredients</label>
-            {ingredients.map((ing, index)=>(
-              <div className="destructured-inputs" key={index}>
-                <input 
-                type="text"
-                value={ing}
-                onChange={(e)=>handleIngredientChange(index, e.target.value)}
-                />
-                </div>
-            ))}
+
+            <div className="destructured-inputs" >
+              {ingredients.map((ing, index)=>(
+                <div key={index}>
+                  <input 
+                  type="text"
+                  value={ing}
+                  onChange={(e)=>handleIngredientChange(index, e.target.value)}
+                  />
+                  </div>
+              ))}
+              </div>
           </div>
-          <div>
+          <div className="instructions">
             <label htmlFor="instructions">Instructions</label>
+            <div className="destructured-instructions" >
             {instructions.map((ing, index)=>(
-              <div className="destructured-inputs" key={index}>
+              <div className="instruction-input" key={index}>
                 <input 
                 type="text"
                 value={ing}
                 onChange={(e)=>handleInstructionChange(index, e.target.value)}
                 />
-                </div>
+              </div>
             ))}
+            </div>
           </div>
         </div>
         <button type="submit" >
           Save Changes
         </button>
-   
           <button type="button" onClick={onCancel}>
             Cancel
           </button>
