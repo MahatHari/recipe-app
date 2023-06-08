@@ -1,7 +1,7 @@
 import axios, { AxiosHeaders } from 'axios'
 
 
-const baseUrl= "http://localhost:3001/recipes"
+const baseUrl= "https://harimahat-recipe-api.onrender.com/recipes"
 
 const getAll= async()=>{
     try {
