@@ -1,7 +1,7 @@
 import axios, { AxiosHeaders } from 'axios'
 
 
-const baseUrl= "https://harimahat-recipe-api.onrender.com/recipes"
+const baseUrl= import.meta.env.VITE_BASE_URL
 
 const getAll= async()=>{
     try {
